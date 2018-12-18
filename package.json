@@ -5,7 +5,8 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+	"fix-memory-limit": "cross-env LIMIT=2048 increase-memory-limit"
   },
   "dependencies": {
     "vue": "^2.5.17",
@@ -19,7 +20,9 @@
     "babel-eslint": "^10.0.1",
     "eslint": "^5.8.0",
     "eslint-plugin-vue": "^5.0.0-0",
-    "vue-template-compiler": "^2.5.17"
+    "vue-template-compiler": "^2.5.17",
+	"increase-memory-limit": "^1.0.3",
+    "cross-env": "^5.0.5"
   },
   "eslintConfig": {
     "root": true,

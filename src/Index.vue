@@ -5,12 +5,12 @@
 </template>
 
 <style>
-@import'assets/vendors/base/vendors.bundle.css';
-@import'assets/demo/default/base/style.bundle.css';
-
-
+@import 'assets/vendors/base/vendors.bundle.css';
+@import 'assets/demo/default/base/style.bundle.css';
+@import 'assets/css/blue/theme.css';
+@import 'assets/css/layout.css';
 </style>
 <script>
-  // import vendors from 'assets/vendors/base/vendors.bundle.js';
-  // import scripts from 'assets/demo/default/base/scripts.bundle.js';
+import './assets/vendors/base/vendors.bundle.js';
+// import './assets/demo/default/base/scripts.bundle.js';
 </script>
